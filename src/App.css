@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -9,7 +10,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 120s linear;
   }
 }
 
@@ -35,4 +36,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.list-group-item{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 0 0 0 20px!important;
+}
+.table thead th, td{
+  border: none !important;
+}
+
+.test{
+  text-decoration: line-through;
 }
